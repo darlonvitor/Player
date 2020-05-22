@@ -1,0 +1,9 @@
+.titulomusica{
+    background: red;/*linear-gradient(to right, blue 42%, red 0);*/
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+    display: inline;
+
+
+   border: 1px solid red;
+}
