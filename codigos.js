@@ -13,11 +13,10 @@ function setPlayer(){
     player.onpause = function(){clearInterval(intervalo);};
     player.onended = function(){
         clearInterval(intervalo);
-        ;
+        document.getElementById("titulo1").style.backgroundImage = "linear-gradient(to right, blue 100%, red 0)";;
     };
     player.onwaiting = function(){
-        clearInterval(intervalo);
-        document.getElementById("titulo1").style.backgroundImage = "linear-gradient(to right, blue 100%, red 0)";
+        clearInterval(intervalo);        
     };
 }
 var intervalo;
